@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", "Courier New", Courier, monospace;
+  background-color: antiquewhite;
+  color: black;
+}
+
+header {
+  text-align: center;
+  padding: 15px;
+}
+
+.chip_input {
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin: 30px;
+}
+
+.input_btn {
+  padding: 10px;
+  width: 550px;
+  border-radius: 10px;
+}
+
+.input_btn:focus {
+  background-color: bisque;
+  border: none;
+}
+
+.output {
+  display: flex;
+  gap: 10px;
+  margin: 40px;
+}
+
+.item {
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: grey;
+  /* color: white; */
+}
+
+.item_name {
+  color: white;
+}
+
+.line {
+  border: 3px solid grey;
+  background-color: grey;
+  border-radius: 100%;
+}
+
+.close {
+  font-weight: 1000;
+}
+
+.close:hover {
+  cursor: pointer;
+}
